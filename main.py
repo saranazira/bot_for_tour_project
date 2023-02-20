@@ -2,7 +2,7 @@ import telegram
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
-TOKEN = '6200402563:AAFDGTB1HP7FyDPgAbbcnhhrNitsp1U2X4U'
+TOKEN = ''
 
 def start(update, context):
     keyboard = [[InlineKeyboardButton("Перейти на сайт", url='http://www.example.com')],
